@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import {compose} from "redux";
+import {withRouter} from "react-router-dom";
+import {connect} from "react-redux";
+import TableContainer from "./components/Table/TableContainer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+
+    render() {
+        return <div className="App">
+            <Header/>
+            <TableContainer
+                store={this.props.store}
+                className="body"
+            />
+            <Footer/>
+        </div>
+    }
 }
 
-export default App;
+const mapStateToProps = (state) => ({})
+
+export default compose(
+    withRouter,
+    connect(mapStateToProps, {}))(App);

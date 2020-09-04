@@ -1,0 +1,18 @@
+.header{
+    width: 100%;
+    background: #282D30;
+    height: 102px;
+}
+.header_img{
+    display: block;
+    margin: 0 auto;
+    width: 494px;
+    height: 104px;
+}
+
+@media only screen and (max-width: 720px) {
+    .header_img{
+        width: 300px;
+        height: 63px;
+    }
+}
