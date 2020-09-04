@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/KDX_test/static/css/main.19142374.chunk.css",
+    "main.js": "/KDX_test/static/js/main.9e0db78d.chunk.js",
+    "main.js.map": "/KDX_test/static/js/main.9e0db78d.chunk.js.map",
+    "runtime-main.js": "/KDX_test/static/js/runtime-main.6faf8c4e.js",
+    "runtime-main.js.map": "/KDX_test/static/js/runtime-main.6faf8c4e.js.map",
+    "static/js/2.22ea1562.chunk.js": "/KDX_test/static/js/2.22ea1562.chunk.js",
+    "static/js/2.22ea1562.chunk.js.map": "/KDX_test/static/js/2.22ea1562.chunk.js.map",
+    "index.html": "/KDX_test/index.html",
+    "precache-manifest.dab94315d87457702b721930c98df86b.js": "/KDX_test/precache-manifest.dab94315d87457702b721930c98df86b.js",
+    "service-worker.js": "/KDX_test/service-worker.js",
+    "static/css/main.19142374.chunk.css.map": "/KDX_test/static/css/main.19142374.chunk.css.map",
+    "static/js/2.22ea1562.chunk.js.LICENSE.txt": "/KDX_test/static/js/2.22ea1562.chunk.js.LICENSE.txt",
+    "static/media/DUCK 1.png": "/KDX_test/static/media/DUCK 1.d34825b2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6faf8c4e.js",
+    "static/js/2.22ea1562.chunk.js",
+    "static/css/main.19142374.chunk.css",
+    "static/js/main.9e0db78d.chunk.js"
+  ]
+}
